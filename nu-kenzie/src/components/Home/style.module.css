@@ -1,0 +1,41 @@
+:root {
+  --color-primary: #fd377e;
+  --color-primary-2: #e34981;
+  --color-secondary: #03b898;
+
+  --grey-1: #f8f9fa;
+  --grey-2: #e9ecef;
+  --grey-3: #868e96;
+  --grey-4: #212529;
+
+  --font-size-12: 0.75rem;
+  --font-size-16: 1rem;
+  --font-size-22: 1.37rem;
+  --font-size-38: 1.75rem;
+}
+.mainContent {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+}
+.content {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  width: 230px;
+}
+
+.content h1 {
+  font-size: var(--font-size-38);
+  font-weight: 800;
+
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.bot h6 {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
