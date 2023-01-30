@@ -22,7 +22,7 @@ export function Count() {
   );
 
   // button for delete
-  const handleDelete = (index) => {
+  const btnDelete = (index) => {
     const updatedList = list.filter((item, i) => i !== index);
 
     setList(updatedList);
@@ -45,7 +45,7 @@ export function Count() {
             </button>
           </header>
           <main className="mainContente">
-            <div className="type-count">
+            <section className="type-count">
               <div className="form">
                 <form>
                   <p className="description">Descrição</p>
@@ -96,7 +96,7 @@ export function Count() {
               <h1 className={`before ${list.length > 0 ? "hidden" : ""}`}>
                 Você ainda não possui nenhum lançamento
               </h1>
-              <div className="list-click">
+              <section className="list-click">
                 <h3>Resumo financeiro</h3>
                 <ul className="list-scroll">
                   {list.map((item, index) => (
@@ -112,7 +112,7 @@ export function Count() {
                           <button
                             type="button"
                             className="btn-trash"
-                            onClick={() => handleDelete(index)}
+                            onClick={() => btnDelete(index)}
                           >
                             <img src={trash} className="trash"></img>
                           </button>
@@ -121,8 +121,8 @@ export function Count() {
                     </li>
                   ))}
                 </ul>
-              </div>
-            </div>
+              </section>
+            </section>
           </main>
         </div>
       )}
