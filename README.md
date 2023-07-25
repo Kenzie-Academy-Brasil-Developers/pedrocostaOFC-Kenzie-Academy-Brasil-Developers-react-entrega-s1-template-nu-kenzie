@@ -1,7 +1,5 @@
 <h1>Nu Kenzie - Organize your Income!</h1>
 
-    <img src="/path/to/logo.png" alt="Nu Kenzie Logo"> <!-- Add an image of the logo if available -->
-
     <p>Nu Kenzie is a powerful application designed to help you effectively manage your income, both incoming and outgoing. This clean and user-friendly app was created in collaboration with Kenzie Academy Brasil, ensuring the best user experience.</p>
 
     <h2>Technologies Used</h2>
